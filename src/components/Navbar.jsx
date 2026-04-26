@@ -22,7 +22,7 @@ export default function Navbar() {
 
   return (
     <nav className={`navbar ${scrolled ? 'scrolled' : ''}`}>
-      <div style={{ padding: "20px 10px" }} className="max-w-7xl mx-auto px-6 p-4 flex items-center justify-around">
+      <div style={{ padding: "20px 10px" }} className=" mx-auto px-6 p-4 flex items-center justify-around">
         {/* Logo */}
         <a href="#home" className="flex items-center gap-2 text-decoration-none">
           <div className="w-9 h-9 rounded-xl flex items-center justify-center" style={{ background: 'linear-gradient(135deg,#5B5CFF,#8A2EFF)' }}>
@@ -58,9 +58,9 @@ export default function Navbar() {
 
         {/* CTA */}
         <div className="hidden md:flex items-center gap-3">
-          <a href="tel:+11234567890" className="flex items-center gap-2" style={{ color: scrolled ? '#5B5CFF' : 'white', fontWeight: 500, fontSize: '14px', textDecoration: 'none' }}>
+          {/* <a href="tel:+11234567890" className="flex items-center gap-2" style={{ color: scrolled ? '#5B5CFF' : 'white', fontWeight: 500, fontSize: '14px', textDecoration: 'none' }}>
             <Phone size={16} /> +1 (234) 567-890
-          </a>
+          </a> */}
           <a href="#contact" className="btn-gradient" style={{ padding: '10px 22px', fontSize: '14px' }}>
             احجز الآن
           </a>

@@ -5,26 +5,56 @@ import { ChevronLeft, ChevronRight, ZoomIn } from 'lucide-react'
 
 const results = [
   {
-    img: '/before_after.png',
-    title: 'تجديد نضارة البشرة',
-    desc: 'ليزر + هيدرافيشل — 3 جلسات',
+    img: "https://media.istockphoto.com/id/117147641/photo/transform.webp?a=1&b=1&s=612x612&w=0&k=20&c=hUz2flM1AI-mLPtNGsxA2NVuVDmKpKCB52GsdsDOs30=",
+    title: "تجديد نضارة البشرة",
+    desc: "ليزر + هيدرافيشل — 3 جلسات",
   },
   {
-    img: '/clinic_interior.png',
-    title: 'علاجات مكافحة الشيخوخة',
-    desc: 'بوتوكس + فيلر — نتائج طبيعية',
+    img: "https://images.unsplash.com/photo-1606813907291-d86efa9b94db",
+    title: "علاجات مكافحة الشيخوخة",
+    desc: "بوتوكس + فيلر — نتائج طبيعية",
   },
   {
-    img: '/before_after.png',
-    title: 'إزالة آثار حب الشباب',
-    desc: 'RF Microneedling — 4 جلسات',
+    img: "https://images.unsplash.com/photo-1596755389378-c31d21fd1273",
+    title: "إزالة آثار حب الشباب",
+    desc: "Microneedling — 4 جلسات",
   },
   {
-    img: '/clinic_interior.png',
-    title: 'شد الوجه بالخيوط',
-    desc: 'شد وجه غير جراحي — تأثير فوري',
+    img: "https://images.unsplash.com/photo-1643402305704-474b129161a5?w=400&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1BVTrB47erypG3tevi1U9Fv6BbNUBEiuiX",
+    title: "شد الوجه بالخيوط",
+    desc: "شد غير جراحي",
   },
-]
+  {
+    img: "https://images.unsplash.com/photo-1570172619644-dfd03ed5d881",
+    title: "تفتيح البشرة",
+    desc: "تقشير كيميائي",
+  },
+  {
+    img: "https://images.unsplash.com/photo-1556228720-195a672e8a03",
+    title: "علاج التصبغات",
+    desc: "ليزر بيكو",
+  },
+  {
+    img: "https://images.unsplash.com/photo-1600334129128-685c5582fd35",
+    title: "نحت الجسم",
+    desc: "كرايو",
+  },
+  {
+    img: "https://images.unsplash.com/photo-1616394584738-fc6e612e71b9",
+    title: "إزالة الشعر بالليزر",
+    desc: "تقنية حديثة",
+  },
+  {
+    img: "https://images.unsplash.com/photo-1598440947619-2c35fc9aa908",
+    title: "ترطيب البشرة",
+    desc: "هيدرافيشل",
+  },
+  {
+    img: "https://images.unsplash.com/photo-1597143720220-5ea9b8022bc2?w=400&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8JUQ4JUFBJUQ4JUFDJUQ4JUFGJUQ5JThBJUQ4JUFGJTIwJUQ5JTg2JUQ4JUI2JUQ4JUE3JUQ4JUIxJUQ4JUE5JTIwJUQ4JUE3JUQ5JTg0JUQ4JUE4JUQ4JUI0JUQ4JUIxJUQ4JUE5fGVufDB8fDB8fHww",
+    title: "شد الرقبة",
+    desc: "RF",
+  },
+];
 
 export default function Results() {
   const ref = useRef(null)
